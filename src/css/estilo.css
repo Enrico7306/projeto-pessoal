@@ -8,7 +8,7 @@
 /* Estilo geral do corpo */
 body {
   font-family: 'Arial', sans-serif;
-  background: url('../assets/vamp.jpg') no-repeat center center/cover;
+  background:linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #0a0a0a 100%), url('../assets/vamp.jpg') no-repeat center center/cover;
   color: white;
   width:100%;
   height:100vh;
@@ -108,17 +108,21 @@ section a:hover {
 }
 
   #quem-somos {
-            background-color:rgb(7, 7, 7);
+           background-color: #0a0a0a;
             color: #332;
             padding: 50px 20px;
             text-align: center;
              transition: background-color 0.5s ease;
+             z-index:6;
         }
 
         #quem-somos h2 {
             font-size: 2em;
-            color:rgb(198, 205, 212);
-            margin-bottom: 20px;
+             background: linear-gradient(to bottom,rgb(14, 13, 13), #3d3d3d); /* Gradiente do topo para o fundo */
+           -webkit-background-clip: text;
+            color: transparent;
+            
+            margin-bottom: 30px;
             line-height:2;
             
         }
@@ -135,4 +139,20 @@ section a:hover {
             height:50%;
             margin:50px;
         }
+.botao-seta{
+  background:url('../assets/seta-Photoroom.png')no-repeat center center/cover;
+  height:8%;
+  width:4%;
+  background-color:gray;
+  position:absolute;left:40%;
+  border-radius:100%;
+  margin:90px;
+  border:none;
+  opacity:50%;
+}
+.botao-seta:hover{
+  height:8%;
+  opacity:70%;
+}
+
         
