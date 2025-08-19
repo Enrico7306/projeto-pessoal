@@ -22,8 +22,9 @@ body {
     background:none;
     width:7%;
     height:23%;
-    position:absolute;left:3%;
+    position:absolute;right:86%;
     opacity:70%;
+    margin-top:0%;
     
 }
 
@@ -109,7 +110,7 @@ section a:hover {
 
   #quem-somos {
            background-color: #0a0a0a;
-            color: #332;
+            color: white;
             padding: 50px 20px;
             text-align: center;
              transition: background-color 0.5s ease;
@@ -130,28 +131,28 @@ section a:hover {
         #quem-somos p {
             max-width: 800px;
             margin: 0 auto;
-            font-size: 1.3em;
+            font-size: 1.0em;
             font-height:1000;
             line-height:1;
         }
         div img{
             width:30%;
-            height:50%;
-            margin:50px;
+            height:45%;
+            margin:60px;
         }
 .botao-seta{
   background:url('../assets/seta-Photoroom.png')no-repeat center center/cover;
-  height:8%;
-  width:4%;
+  height:6%;
+  width:3%;
   background-color:gray;
-  position:absolute;left:40%;
+  position:absolute;left:38%;
   border-radius:100%;
-  margin:90px;
+  margin:140px;
   border:none;
   opacity:50%;
 }
 .botao-seta:hover{
-  height:8%;
+  
   opacity:70%;
 }
 
